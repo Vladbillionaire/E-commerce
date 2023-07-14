@@ -1,0 +1,1380 @@
+/* styles */
+body {
+	min-width: 480px;
+	background: #e3e3e3;
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #333333;
+	cursor: default;
+}
+
+.main_wrapper {
+	margin: 0 auto;
+	width: 480px;
+	background: #fff;
+}
+.check span {
+	position: relative;
+	font-weight: 500;
+	font-size: 18px;
+	padding: 15px;
+	bottom: 19px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+b {
+	font-weight: 700;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+h2.title{
+	font-size: 20px;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 30px;
+	padding: 0 20px;
+}
+h2.title span{
+	display: block;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.1em;
+	color: #f82034;
+}
+p.subtitle{
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.3em;
+	margin: -10px 0 20px;
+}
+section{
+	padding: 35px 0 30px;
+}
+.сolor_theme{
+	background: #ed525c;
+	background: -moz-linear-gradient(top, #ed525c 0%, #e65336 100%);
+	background: -webkit-linear-gradient(top, #ed525c 0%,#e65336 100%);
+	background: linear-gradient(to bottom, #ed525c 0%,#e65336 100%);
+}
+.сolor_theme .title,
+.сolor_theme .title span{
+	color: #fff;
+}
+.m1-form{
+	padding: 0 40px;
+}
+.m1-form input{
+	width: 100%;
+	display: block;
+	font-family: 'Gotham Pro', sans-serif;
+	border: #ececec 1px solid;
+	font-size: 18px;
+	margin-bottom: 20px;
+	height: 68px;
+	border-radius: 6px;
+	background: #fff;
+	text-indent: 65px;
+	color: #727272;
+}
+.m1-form select{
+	width: 100%;
+	display: block;
+	font-family: 'Gotham Pro', sans-serif;
+	border: #ececec 1px solid;
+	font-size: 18px;
+	margin-bottom: 20px;
+	height: 68px;
+	border-radius: 6px;
+	background: #fff;
+	text-indent: 65px;
+	color: #727272;
+}
+.m1-form input[name="name"]{
+	background: #fff url("-dcqirj5.png")/*tpa=http://online-pokypki.shop/images/input_name.png*/ 20px 50% no-repeat;
+}
+.m1-form input[name="phone"]{
+	background: #fff url("91gi06od.png")/*tpa=http://online-pokypki.shop/images/input_phone.png*/ 20px 50% no-repeat;
+}
+
+.m1-form .button-m{
+	margin-top: 0;
+}
+.m1-form ::-webkit-input-placeholder {
+	color: #727272;
+}
+.m1-form ::-webkit-select-placeholder {
+	color: #727272;
+}
+.m1-form ::-moz-placeholder {
+	color: #727272;
+}
+.m1-form :-moz-placeholder {
+	color: #727272;
+}
+.m1-form :-ms-input-placeholder {
+	color: #727272;
+}
+.m1-form :-ms-select-placeholder {
+	color: #727272;
+}
+.m1-form :focus::-webkit-input-placeholder {
+	color: transparent;
+}
+.m1-form :focus::-webkit-select-placeholder {
+	color: transparent;
+}
+.m1-form :focus::-moz-placeholder {
+	color: transparent;
+}
+.m1-form :focus:-moz-placeholder {
+	color: transparent;
+}
+.m1-form :focus:-ms-input-placeholder {
+	color: transparent;
+}
+.m1-form :focus:-ms-select-placeholder {
+	color: transparent;
+}
+/* button */
+.button-m{
+	display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 76px;
+    border: none;
+    -webkit-border-radius: 38px;
+    -moz-border-radius: 38px;
+    border-radius: 38px;
+    background-image: linear-gradient(90deg, rgb(0 119 200) 0%, rgb(40 139 207) 35%, rgb(0 119 200) 100%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 76px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+	box-shadow: 0 0 12px 0 rgb(0 0 0 / 15%);
+}
+.button-m:active{
+	background: linear-gradient(to bottom, #ffa707, #fec925);
+	top: 2px;
+}
+
+
+/*  header   */
+.top_line{
+	background: #fff;
+}
+.top_line ul{
+	padding: 2px 25px 2px 20px;
+	text-align: center;
+	-ms-text-align-last: justify;
+	text-align-last: justify;
+	font-size: 0;
+	letter-spacing: -1px;
+}
+.top_line ul>li{
+	display: inline-block;
+	padding: 14px 0 14px 45px;
+	text-align: left;
+	-ms-text-align-last: left;
+	text-align-last: left;
+	font-size: 14px;
+	line-height: 1.3em;
+	letter-spacing: normal;
+}
+.top_line ul>li:nth-child(1){
+	background: url("")/*tpa=http://online-pokypki.shop/images/top_line1.png*/ 5px 50% no-repeat;
+}
+.top_line ul>li:nth-child(2){
+	background: url("")/*tpa=http://online-pokypki.shop/images/top_line2.png*/ 10px 50% no-repeat;
+}
+.top_line ul>li:nth-child(3){
+	background: url("")/*tpa=http://online-pokypki.shop/images/top_line3.png*/ 0px 50% no-repeat;
+}
+.top_line ul>li span{
+	font-weight: 700;
+	display: block;
+}
+
+.offer_section {
+	background: #f0f3ee url("c96nz3f4.jpg")/*tpa=http://online-pokypki.shop/images/offer_bottom.jpg*/ 50% 100% no-repeat;
+	padding-top: 0;
+	padding-bottom: 35px;
+}
+.main_title{
+	color: #fff;
+	font-size: 25px;
+	line-height: 1.1em;
+	text-align: center;
+	font-weight: 700;
+	padding: 23px 0 25px;
+	background: #d92d53;
+	background: -moz-linear-gradient(left, #d92d53 0%, #f03c64 100%);
+	background: -webkit-linear-gradient(left, #d92d53 0%,#f03c64 100%);
+	background: linear-gradient(to right, #d92d53 0%,#f03c64 100%);
+}
+.header_image{
+	position: relative;
+}
+.header_image>img{
+	display: block;
+}
+.offer_desc{
+	position: absolute;
+	color: #fff;
+	font-size: 26px;
+	line-height: 1.2em;
+	right: 20px;
+	top: 27px;
+	width: 175px;
+	font-weight: 700;
+	text-align: right;
+}
+.offer_section .sale{
+	position: absolute;
+    width: 112px;
+    height: 112px;
+    display: block;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 77px;
+    background: linear-gradient(90deg, #f04165, #f9c2a4);
+    top: 100px;
+    left: 350px;
+}
+.offer_section .sale>p{
+	transform: rotate(-20deg);
+    position: absolute;
+    bottom: 32px;
+    left: 2px;
+}
+.offer_section .sale>p>span{
+	font-size: 34px;
+    font-weight: 700;
+    line-height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -4px 0 0 5px;
+}
+
+.offer_bulets{
+
+}
+.offer_bulets>li{
+	padding: 20px 20px 20px 70px;
+	background: #fff url("")/*tpa=http://online-pokypki.shop/images/offer_bull.png*/ 20px 50% no-repeat;
+	border-bottom: 1px solid #efefef;
+}
+
+
+.offer_section .timer_block {
+	padding: 20px 50px 0;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.offer_section .timer_block>p {
+	font-size: 18px;
+	text-align: center;
+	margin: 0 0 12px;
+	
+}
+.offer_section .timer_block .timer_item {
+	display: inline-block;
+    width: 76px;
+    padding: 10px 0;
+    position: relative; 
+    text-align: center;
+    margin: 0 20px; 
+    border-radius: 20px;
+    background: linear-gradient(342deg, rgb(255 205 63) 0%, rgb(253 218 19) 35%, rgb(239 230 62) 100%);
+}
+.offer_section .timer .timer_item:not(:last-child):after{
+	content: ":";
+	color: #b9bbb8;
+	font-size: 40px;
+	position: absolute;
+	top: 12px;
+	right: -28px;
+	line-height: 1em;
+}
+.offer_section .timer_block .count span {
+	font-size: 40px;
+	font-weight: 400;
+	color: #2a3016;
+	line-height: 1em;
+}
+.offer_section .timer_block .text {
+	font-size: 14px;
+	line-height: 1.1em;
+	color: #2a3016;
+}
+
+
+.offer_section .price{
+	background: url("dswpcvff.png")/*tpa=http://online-pokypki.shop/images/price.png*/ 50% 4px no-repeat;
+	padding: 0;
+	margin: 30px 0;
+}
+.offer_section .price>div{
+	width: 50%;
+	float: left;
+	font-size: 14px;
+	line-height: 1.1em;
+	text-transform: uppercase;
+}
+.offer_section .price .old{
+	text-align: right;
+	padding-right: 40px;
+}
+.offer_section .price .new{
+	padding-left: 40px;
+}
+.offer_section .price p{
+	font-size: 44px;
+	line-height: 1.1em;
+}
+.offer_section .price .old p span{
+	text-decoration: line-through;
+}
+.offer_section .price p small{
+	font-size: 26px;
+}
+
+.offer_section .price .new p{
+	color: #ff3e3e;
+	font-weight: 700;
+}
+
+
+.offer_section .products_count {
+	margin: 30px 0 0;
+	font-size: 16px;
+	line-height: 1.1em;
+	text-align: center;
+}
+.offer_section .products_count>span{
+	color: #fff;
+	font-weight: 700;
+	background: #ff3e3e;
+	border-radius: 4px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 5px 8px;
+	margin: -4px 0 0 8px;
+}
+
+/*sect2*/
+.sect2 .title{
+	margin-bottom: 10px;
+}
+.sect2 img{
+	display: block;
+	margin: 0 auto 10px;
+}
+.sect2>p{
+	padding: 0 40px;
+    line-height: 1.8em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.sect2>p>span{
+	background: #0077c8;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+	font-size: 18px;
+	line-height: 50px;
+}
+.sect2 .gifka{
+	border-radius: 8px;
+	margin-bottom: 30px;
+	width: 440px;
+}
+.list1{
+	font-size: 0;
+	letter-spacing: -1px;
+	padding: 0 30px;
+	text-align: justify;
+	text-align-last: justify;
+}
+.list1>li{
+	width: 180px;
+	display: inline-block;
+	font-size: 16px;
+	letter-spacing: normal;
+	text-align: left;
+	text-align-last: left;
+	padding: 0 0 0 30px;
+	background: url("")/*tpa=http://online-pokypki.shop/images/list_check.png*/ 0% 3px no-repeat;
+	margin-bottom: 30px;
+}
+
+
+/*sect3*/
+.sect3{
+	padding: 0;
+}
+.sect3 h2{
+	color: #fff;
+    font-size: 19px;
+    line-height: 1.4em;
+    text-align: center;
+    padding: 12px 60px;
+    /* background: #f2435e; */
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.sect3 h2 span{
+	font-size: 18px;
+    line-height: 1.2em;
+    display: block;
+    font-weight: 700;
+    color: #444444;
+}
+.sect3>img{
+	display: block;
+	margin-bottom: 6px;
+}
+.sect3>img:last-child{
+	margin-bottom: 0;
+}
+
+
+/*sect4*/
+.sect4{
+	padding-bottom: 5px;
+}
+.sect4 .img{
+	position: relative;
+}
+.sect4 .img>img{
+	display: block;
+	margin: 0 0 -15px;
+}
+.sect4 .img:after{
+	content: '';
+	width: 34px;
+	height: 84px;
+	background: url("")/*tpa=http://online-pokypki.shop/images/s4_img_after.png*/ 50% 50% no-repeat;
+	position: absolute;
+	bottom: -10px;
+	left: 333px;
+}
+.sect4 .list2{
+	font-size: 0;
+	letter-spacing: -1px;
+}
+.list2>ul{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 35px 20px 70px 20px;
+	font-size: 16px;
+	letter-spacing: normal;
+}
+.list2>ul>h4{
+	text-align: center;
+	margin-bottom: 25px;
+}
+.list2>ul>li:not(:last-child){
+	margin-bottom: 25px;
+}
+.list2>.plus{
+	background: #fff9f0;
+}
+.list2 .minus>li{
+	padding: 0 0 0 22px;
+	background: url("")/*tpa=http://online-pokypki.shop/images/x_icon.png*/ 0% 5px no-repeat;
+}
+.list2 .plus>li{
+	padding: 0 0 0 24px;
+	background: url("")/*tpa=http://online-pokypki.shop/images/check_icon.png*/ 0% 5px no-repeat;
+}
+.list2>.plus>h4{
+	color: #f04165;
+}
+.sect4 .button-m{
+	margin: -41px auto -51px;
+}
+
+
+/*sect5*/
+.sect5{
+	background: #f13e58 url("") no-repeat 50% 0% ;
+	padding: 40px 0 30px;
+}
+.sect5 .title{
+	margin-bottom: 120px;
+}
+.sect5 .title,
+.sect5 .title span{
+	color: #fff;
+}
+
+.list3{
+	font-size: 0;
+	letter-spacing: -1px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.list3>li{
+	width: 210px;
+	display: inline-block;
+	vertical-align: top;
+	background: #fff;
+	border-radius: 6px;
+	margin: 0 0 110px 20px;
+	font-size: 16px;
+	letter-spacing: normal;
+	padding: 5px 15px 20px;
+	text-align: center;
+}
+.list3>li>img{
+	display: block;
+	margin: -95px auto 20px;
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 5px rgba(255,255,255,0.3);
+	-moz-box-shadow: 0px 0px 0px 5px rgba(255,255,255,0.3);
+	border: 8px solid rgba(255,255,255,0.5);
+	box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.35);
+}
+.list3>li:nth-child(3),
+.list3>li:nth-child(4){
+	margin-bottom: 0;
+}
+.sect5>img{
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*sect6*/
+.sect6 .title span{
+	color: #f2435e;
+}
+.list4{
+	padding: 0 20px 50px;
+}
+.list4>li{
+	display: table;
+	width: 100%;
+	margin-bottom: 55px;
+}
+.list4>li .img{
+	display: table-cell;
+	vertical-align: middle;
+	width: 105px;
+}
+.list4>li .img>img{
+	display: block;
+	margin: 0 auto;
+	border-radius: 6px;
+}
+.list4>li .txt{
+	padding: 0 0 0 20px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.list4>li .txt>span{
+	font-weight: 700;
+	display: block;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.list4>li:nth-child(2n) .txt{
+	text-align: right;
+	padding: 0 20px 0 0;
+}
+.list4>li:last-child{
+	margin-bottom: 0;
+}
+
+
+
+
+/*.sect7*/
+.sect7{
+	background: -moz-linear-gradient(top, #f3f3f3 0%, #ffffff 100%);
+	background: -webkit-linear-gradient(top, #f3f3f3 0%,#ffffff 100%);
+	background: linear-gradient(to bottom, #f3f3f3 0%,#ffffff 100%);
+	padding-bottom: 0;
+}
+.rev_item .info{
+	padding: 30px 30px 20px;
+	background: #fff;
+}
+.rev_item .info>img{
+	float: left;
+	border-radius: 50%;
+}
+.rev_item .info .txt{
+	padding: 4px 0 0 70px;
+	background: url("")/*tpa=http://online-pokypki.shop/images/rev_q.png*/ 100% 50% no-repeat;
+}
+.rev_item .info .txt span{
+	font-size: 18px;
+	display: block;
+}
+.rev_item>img{
+	display: block;
+	margin: 0 auto;
+}
+.rev_item p{
+	background: #f8f8f8;
+	padding: 25px 20px 30px;
+	text-align: center;
+}
+.rev_item p>span{
+	display: block;
+	margin-bottom: 15px;
+	font-weight: 700;
+}
+
+
+/* vote */
+.vote_section{
+	background: #f5547f url("")/*tpa=http://online-pokypki.shop/images/vote_bg.jpg*/ 50% 0% no-repeat;
+	padding-top: 30px;
+}
+.vote_section h2{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 1.5em;
+	text-align: center;
+	margin-bottom: 30px;
+	padding: 0 40px;
+}
+
+.vote_section .vote_block {
+	margin: 0 18px;
+	padding: 20px 20px 30px;
+	background: #fff;
+	-webkit-box-shadow: 0 0 27px rgba(2, 2, 2, 0.1);
+	-moz-box-shadow: 0 0 27px rgba(2, 2, 2, 0.1);
+	box-shadow: 0 0 27px rgba(2, 2, 2, 0.1);
+}
+
+.vote_section .questions_list {
+	margin: 0 0 22px;
+}
+
+.vote_section .question_item {
+	margin: 0 0 20px;
+	height: 55px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background: #ededed;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	padding: 0 0 0 65px;
+}
+
+.vote_section .question_item:last-child {
+	margin: 0;
+}
+
+.vote_section .question_item .line {
+	display: none;
+	width: 0%;
+	height: 55px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.vote_section .questions_list.active .question_item .line {
+	display: block;
+}
+
+.vote_section .question_item:nth-child(1) .line {
+	background: #3ce434 ;
+}
+
+.vote_section .question_item:nth-child(2) .line {
+	background: #ff4242;
+}
+
+.vote_section .question_item:nth-child(3) .line {
+	background: #ffb73a;
+}
+
+.vote_section .question_item .question_text {
+	float: left;
+	padding: 0px;
+	line-height: 55px;
+	position: relative;
+}
+
+.vote_section .question_item .question_text:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	content: '';
+	width: 55px;
+	height: 55px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	position: absolute;
+	left: -65px;
+}
+
+.vote_section .questions_list.active .question_item .question_text:before {
+	display: none;
+}
+
+.vote_section .question_item:nth-child(1) .question_text:before {
+	background: #3ce434 url("")/*tpa=http://online-pokypki.shop/images/question_yes.png*/ 50% 50% no-repeat;
+}
+
+.vote_section .question_item:nth-child(2) .question_text:before {
+	background: #ff4242 url("")/*tpa=http://online-pokypki.shop/images/question_no.png*/ 50% 50% no-repeat;
+}
+
+.vote_section .question_item:nth-child(3) .question_text:before {
+	background: #ffb73a url("")/*tpa=http://online-pokypki.shop/images/question_dknow.png*/ 50% 50% no-repeat;
+}
+
+.vote_section .question_item .percents {
+	display: none;
+	float: right;
+	padding: 0 10px 0 0;
+	font-weight: 700;
+	line-height: 55px;
+	text-align: right;
+	position: relative;
+}
+
+.vote_section .questions_list.active .question_item .percents {
+	display: block;
+}
+
+.vote_section .voice_count {
+	text-align: center;
+	margin-top: 35px;
+}
+.vote_section .voice_count:before{
+	content: '';
+	width: 46px;
+	height: 34px;
+	background: url("")/*tpa=http://online-pokypki.shop/images/voice_count.png*/ 50% 50% no-repeat;
+	display: inline-block;
+	vertical-align: top;
+	margin: -7px 20px 0 0;
+}
+.vote_section .voice_count b {
+	font-weight: 700;
+	color: #f99507;
+}
+.vote_section .voice_count span{
+	font-weight: 700;
+	color: #f99507;
+}
+
+
+/*sect9*/
+.sect9{
+	padding-bottom: 40px;
+}
+.list5{
+	padding: 0 20px;
+}
+.list5>li{
+	width: 100%;
+	display: table;
+	margin-bottom: 42px;
+}
+.list5>li:last-child{
+	margin-bottom: 0;
+}
+.list5>li .img{
+	display: table-cell;
+	width: 50%;
+	vertical-align: middle;
+}
+.list5>li .img img{
+	display: block;
+	margin: 0 auto;
+	border-radius: 6px;
+}
+.list5>li .txt{
+	width: 50%;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding-left: 20px;
+}
+.list5>li:nth-child(2n) .txt{
+	padding: 0 20px 0 0;
+}
+.list5>li .txt p{
+	font-size: 14px;
+}
+.list5>li .txt span{
+	display: block;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+
+.offer_section h5{
+	text-align: center;
+	padding: 0 75px;
+	margin-bottom: 30px;
+	font-weight: 400;
+}
+.offer_section h5 span{
+	font-size: 24px;
+	line-height: 1.4em;
+	display: block;
+}
+
+
+
+
+
+
+
+/* footer */
+.footer_section {
+	padding: 25px 0;
+	background: #fff;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.footer_section img {
+	display: block;
+	margin: 0 auto 10px auto;
+}
+
+.footer_section a {
+	color: #222;
+	display: block;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;	
+}
+.video-container iframe,  
+.video-container object,  
+.video-container embed,
+.video-container .youtube {
+	background: #000;
+	border: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+.iAloza {
+	margin-top: 11px;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+}
+.iOBGpd {
+	padding-right: 7px;
+	font-size: 13px;
+	color: rgb(68, 73, 80);
+}
+.iALXKM {
+	display: inline-flex;
+	position: relative;
+	appearance: none;
+	user-select: none;
+	outline: none;
+	text-decoration: none;
+	cursor: pointer;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
+	vertical-align: middle;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 0px;
+	border: 0px;
+	color: inherit;
+	background-color: transparent;
+}
+.ksTSWJ {
+	margin: 18px 0px;
+	display: flex;
+}
+.bpgmEB {
+	width: 100%;
+	display: flex;
+}
+.hhFvJt {
+	margin: 0px;
+	width: 30px;
+	max-width: none;
+	display: block;
+	height: 30px;
+	border-radius: 100%;
+}
+.ggLknz {
+	padding-left: 5px;
+}
+.eWitUL {
+	padding: 7px 10px 10px 15px;
+	background-color: rgb(242, 243, 245);
+	border-radius: 20px;
+}
+.gKpCSo {
+	padding-right: 5px;
+	font-size: 14px;
+	color: rgb(43, 88, 143);
+	font-weight: 700;
+	line-height: 1.3;
+}
+.degbuh {
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+	line-height: 1.25;
+}
+.bEEZHa {
+	position: absolute;
+	right: 0px;
+	bottom: -13px;
+}
+.iTNacO {
+	display: flex;
+}
+.kkgXjw {
+	margin: 0px;
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+.blvJQI {
+	font-size: 14px;
+	color: rgb(137, 137, 137);
+	position: absolute;
+	top: 5px;
+	right: 9px;
+}
+.jBtIxC {
+	margin-top: 9px;
+	padding-left: 16px;
+	display: flex;
+}
+.bdxwcP {
+	display: inline-flex;
+	position: relative;
+	appearance: none;
+	user-select: none;
+	outline: none;
+	text-decoration: none;
+	cursor: pointer;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
+	vertical-align: middle;
+	text-align: center;
+	margin: 0px;
+	padding: 0px 13px 0px 0px;
+	border-radius: 0px;
+	border: 0px;
+	background-color: transparent;
+	font-size: 14px;
+	color: rgb(56, 88, 152);
+}
+.bdxwcP::after {
+	content: ".";
+	position: absolute;
+	top: -6px;
+	right: 4px;
+	color: rgb(137, 137, 137);
+	font-size: 15px;
+}
+.jUItPz {
+	display: inline-flex;
+	position: relative;
+	appearance: none;
+	user-select: none;
+	outline: none;
+	text-decoration: none;
+	cursor: pointer;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
+	vertical-align: middle;
+	text-align: center;
+	margin: 0px;
+	padding: 0px 13px 0px 0px;
+	border-radius: 0px;
+	border: 0px;
+	background-color: transparent;
+	font-size: 14px;
+	color: rgb(56, 88, 152);
+}
+.jUItPz::after {
+	content: ".";
+	position: absolute;
+	top: -6px;
+	right: 4px;
+	color: rgb(137, 137, 137);
+	font-size: 15px;
+}
+.jAAtcy {
+	padding-right: 9px;
+	font-size: 14px;
+	color: rgb(171, 171, 171);
+}
+.fExxFQ {
+	font-size: 14px;
+	color: rgb(68, 73, 80);
+}
+
+
+
+
+
+
+
+
+
+form .check input {
+	width: 50px;
+	height: 50px;
+}
+
+form .check select {
+	width: 50px;
+	height: 50px;
+}
+
+.input {
+	display: inline-block;
+}
+
+.select {
+	display: inline-block;
+}
+
+.block-last form>div {
+	padding-bottom: 15px;
+}
+
+.check span {
+	position: relative;
+	font-weight: 500;
+	font-size: 18px;
+	bottom: 19px;
+	padding: 15px;
+}
+
+ /* reviews */
+
+.reviews_section {
+	padding: 30px 20px;
+	background: linear-gradient(134deg, rgb(37 121 201) 0%, rgb(79 159 237) 35%, rgba(26,112,194,1) 100%);
+}
+
+.reviews_section h2 {
+	margin: 0 0 30px;
+}
+
+.wtsp_item {
+	max-width: 410px;
+	min-height: 710px;
+	margin: 0 auto;
+	background: url("reviews__wtsp_bg.jpg") 50% 0% repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	overflow: hidden;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.wtsp_item .info {
+	background: #ffffff url("reviews__wtsp_btn.png") 3px 50% no-repeat;
+	padding: 16px 110px 13px 50px;
+	box-shadow: 0 0 12px 0 rgba(0,0,0,0.35);
+	position: relative;
+	z-index: 2;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.wtsp_item .info>img {
+	float: left;
+	border-radius: 50%;
+	width: 42px;
+	border: 1px solid #0f3a33;
+}
+
+.wtsp_item .info .text {
+	overflow: hidden;
+	padding-left: 8px;
+	color: #333;
+}
+
+.wtsp_item .info .text>p {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 700;
+}
+
+.wtsp_item .info .text>small {
+	font-size: 13px;
+	line-height: 18px;
+	display: block;
+}
+
+.wtsp_item .date {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.wtsp_item .date>span {
+	display: inline-block;
+	vertical-align: top;
+	background: #d4ebf3;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 28px;
+	color: #3f5250;
+	padding: 0 8px;
+	border-radius: 7px;
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.wtsp_item .message_container {
+	margin-top: 10px;
+	padding: 0 12px;
+}
+
+.wtsp_item .message {
+	display: inline-block;
+	max-width: 295px;
+	min-width: 70px;
+	padding: 6px 10px;
+	position: relative;
+	font-size: 18px;
+	line-height: 22px;
+	color: #212121;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+	margin-bottom: 10px;
+}
+
+.wtsp_item .message:last-child {
+	margin-bottom: 0;
+}
+
+.wtsp_item .message>p {
+	margin-bottom: 5px;
+}
+
+.wtsp_item .message>img {
+	display: block;
+	margin: 6px auto;
+	border-radius: 4px;
+}
+
+.wtsp_item .message .time {
+	text-align: right;
+	font-size: 14px;
+	line-height: 15px;
+	color: #989898;
+	padding: 0 5px;
+}
+
+.wtsp_item .message.client {
+	background: #fff;
+	border-radius: 0 6px 6px 6px;
+}
+
+.wtsp_item .message.client:before {
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 8px 8px 0;
+	border-color: transparent #fff transparent transparent;
+	position: absolute;
+	top: 0;
+	left: -6px;
+}
+
+.wtsp_item .message.author {
+	background: #c8e2fd;
+	border-radius: 10px 0 10px 10px;
+	padding: 6px 10px;
+	float: right;
+}
+
+.wtsp_item .message.author:before {
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 8px 8px 0 0;
+	border-color: #c8e2fd transparent transparent transparent;
+	position: absolute;
+	top: 0;
+	right: -6px;
+}
+
+.wtsp_item .message.author .time {
+	padding: 0;
+}
+
+.wtsp_item .message.author .time:after {
+	content: '';
+	width: 18px;
+	height: 12px;
+	background: url("urn:scrapbook:download:error:https://l1.supercina.fun/img/reviews__wtsp_read.html") 50% 50% no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	margin: -2px 0 0 4px;
+}
+
+.wtsp_item:after {
+	content: '';
+	width: 404px;
+	height: 57px;
+	background: url("reviews__wtsp_send.png") 50% 50% no-repeat;
+	position: absolute;
+	left: 50%;
+	margin-left: -202px;
+	bottom: 7px;
+}
+
+.wtsp_rev .owl-prev, 
+.wtsp_rev .owl-next {
+	width: 47px;
+	height: 47px;
+	background: #f85a3d url("slider__arrows.jpg") no-repeat;
+	position: absolute;
+	top: 50%;
+	margin-top: -23px;
+}
+
+.wtsp_rev .owl-prev {
+	background-position: left center;
+	-webkit-border-radius: 0 6px 6px 0;
+	-moz-border-radius: 0 6px 6px 0;
+	border-radius: 0 6px 6px 0;
+	left: -20px;
+}
+
+.wtsp_rev .owl-next {
+	background-position: right center;
+	-webkit-border-radius: 6px 0 0 6px;
+	-moz-border-radius: 6px 0 0 6px;
+	border-radius: 6px 0 0 6px;
+	right: -20px;
+}
+
+.wtsp_rev .owl-dots {
+	font-size: 0;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.wtsp_rev .owl-dot {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 8px;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+
+.wtsp_rev .owl-dot.active {
+	background: #fff;
+}
+
+.reyt {
+	background: linear-gradient(342deg, rgb(237 224 1) 0%, rgb(237 225 0) 35%, rgb(238 226 0) 100%);
+	padding: 12px 0 12px 30px;
+	color: #211a00;
+}
+.reyt .stars {
+	display: inline-block;
+	background: url("stars.png") left 3px no-repeat;
+	padding: 0 15px 0 116px;
+	margin-right: 10px;
+	line-height: 24px;
+	border-right: 1px solid #dedfe0;
+}
+.reyt .stars b {
+	font-size: 20px;
+	color: #2a3016;
+}
+
+.title-block{
+    position: fixed;
+    z-index: 9990;
+    width: 480px;
+    height: 64px;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -240px;
+    padding: 12px 20px;
+	background: #ffffffed;
+}
+.title-block>span{
+    display: inline-block;
+    margin: 9px 0 0;
+    font-family: "Pattaya", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+}
+.title-block>a{
+    display: inline-block;
+    float: right;
+    padding: 6px 25px 7px;
+    color: #2a3016;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    border-radius: 30px;
+    background: #fff100;
+    border-bottom: 1px solid #eddf14;
+}
